@@ -1,5 +1,8 @@
 # pfcheck
 
+Quickly check for Pfizer vaccine availability at the Manitoba vaccine super-sites.
+
+
 ### Install
 
 ```sh
