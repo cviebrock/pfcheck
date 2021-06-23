@@ -21,7 +21,7 @@ const postData = async (url = '', data = {}) => {
 
 const parseData = (data = {}) => {
   const locations = [];
-  for (const [key, value] of Object.entries(data)) {
+  for (const [key, value] of Object.entries(data.sites)) {
     if (!key.startsWith(PFIZER_PREFIX)) {
       continue;
     }
